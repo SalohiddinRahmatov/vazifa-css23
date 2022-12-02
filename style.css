@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.block{
+    width: 350px;
+    height: 350px;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block::before{
+    content: "";
+            width: 50px;
+            height: 50px;
+            border-top: 5px solid green;
+            border-left: 5px solid green;
+            position: absolute;
+            top: 20px;
+            left: 40px;
+}
+.block::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-bottom: 5px solid green;
+    border-right: 5px solid green;
+    position: absolute;
+            top: 290px;
+            left: 310px;
+}
+.block:hover:before{
+    width: 120px;
+    height: 120px;
+    top: 115px;
+    left: 137px;
+    transition: all .3s;
+}
+.block:hover::after{
+    width: 120px;
+    height: 120px;
+    top: 115px;
+    left: 137px;
+    transition: all .3s;
+}
+.block:hover img{
+    width: 120px;
+    height: 120px;
+    transition: all .3s;
+}
+.block2::before{
+    content: "";
+            width: 50px;
+            height: 50px;
+            border-top: 5px solid red;
+            border-left: 5px solid red;
+            position: absolute;
+            top: 20px;
+            left: 420px;
+}
+.block2::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-bottom: 5px solid red;
+    border-right: 5px solid red;
+    position: absolute;
+            top: 290px;
+            left: 690px;
+}
+.block2:hover:before{
+    width: 120px;
+    height: 120px;
+    top: 112px;
+    left: 510px;
+    transition: all .3s;
+    border-radius: 80px;
+}
+.block2:hover::after{
+    width: 120px;
+    height: 120px;
+    top: 115px;
+    left: 515px;
+    transition: all .3s;
+    border-radius: 80px;
+}
+.block2:hover img{
+    width: 120px;
+    height: 120px;
+    transition: all .3s;
+    border-radius: 70px;    
+}
+
+.block2{
+    width: 350px;
+    height: 350px;
+    border: 4px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block3{
+    width: 350px;
+    height: 350px;
+    border: 4px solid lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block4{
+    width: 350px;
+    height: 350px;
+    border: 4px solid darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.block3::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid yellow;
+    border-right: 5px solid yellow;
+    position: absolute;
+            top: 20px;
+            left: 1065px;
+}
+.block3::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-bottom: 5px solid yellow;
+    border-left: 5px solid yellow;
+    position: absolute;
+            top: 290px;
+            left: 795px;
+}
+.block3:hover:before{
+    width: 120px;
+    height: 120px;
+    top: 115px;
+    left: 895px;
+    transition: all .3s;
+}
+.block3:hover::after{
+    width: 120px;
+    height: 120px;
+    top: 115px;
+    left: 895px;
+    transition: all .3s;
+}
+.block3:hover img{
+    width: 120px;
+    height: 120px;
+    transition: all .3s;
+
+}
+.block4::before{
+    content: "";
+            width: 50px;
+            height: 50px;
+            border-bottom: 5px solid orange;
+            border-left: 5px solid orange;
+            position: absolute;
+            top: 285px;
+            left: 1180px;
+}
+.block4::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid orange;
+    border-right: 5px solid orange;
+    position: absolute;
+            top: 20px;
+            left: 1440px;
+}
+.block4:hover:before{
+    width: 120px;
+    height: 120px;
+    top: 116px;
+    left: 1273px;
+    transition: all .3s;
+    border-radius: 80px;
+}
+.block4:hover::after{
+    width: 120px;
+    height: 120px;
+    top: 115px;
+    left: 1275px;
+    transition: all .3s;
+    border-radius: 80px;
+}
+.block4:hover img{
+    width: 120px;
+    height: 120px;
+    transition: all .3s;
+    border-radius: 70px;    
+}
+
